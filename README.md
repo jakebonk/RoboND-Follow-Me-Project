@@ -27,3 +27,7 @@ validation_steps = 50
 workers = 8
 
 ![Training Curve](/images/training_curve.png)
+
+## Training
+
+I trained my network using the AWS Udacity Robotics EC2 instance. This network was only trained on humans and able to target the specific person that we trained. If we should images of animals or vehicles it would not be able to detect them accurately. We would have to retrain the model to look for these objects. We would also want to change the model to be able to tell us what we are identifying.
