@@ -22,7 +22,7 @@ These are the current parameters I got to.
 learning_rate = 0.004  
 batch_size = 128  
 num_epochs = 100  
-steps_per_epoch = 32 
+steps_per_epoch = 32  
 validation_steps = 50  
 workers = 8
 
